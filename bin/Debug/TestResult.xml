@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\TestProjectNunit\NunitExample\NunitExample\bin\Debug\NunitExample.dll" total="0" errors="0" failures="0" not-run="1" inconclusive="0" ignored="0" skipped="0" invalid="1" date="2019-11-11" time="10:17:15">
+  <environment nunit-version="2.7.1.0" clr-version="2.0.50727.9148" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.7.1\bin" machine-name="UA1-2449-PC" user="nataliia.s" user-domain="GTECH" />
+  <culture-info current-culture="uk-UA" current-uiculture="uk-UA" />
+  <test-suite type="Assembly" name="D:\TestProjectNunit\NunitExample\NunitExample\bin\Debug\NunitExample.dll" executed="True" result="Failure" success="False" time="0.016" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="NunitExample" executed="True" result="Failure" success="False" time="0.008" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="EposPageTest" executed="False" result="NotRunnable">
+            <reason>
+              <message><![CDATA[No suitable constructor was found]]></message>
+            </reason>
+            <results>
+              <test-case name="NunitExample.EposPageTest.OpenEposPage" executed="False" result="NotRunnable">
+                <reason>
+                  <message><![CDATA[No suitable constructor was found]]></message>
+                </reason>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

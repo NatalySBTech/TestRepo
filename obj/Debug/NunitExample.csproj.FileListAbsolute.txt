@@ -1,0 +1,11 @@
+D:\TestProjectNunit\NunitExample\NunitExample\bin\Debug\NunitExample.dll
+D:\TestProjectNunit\NunitExample\NunitExample\bin\Debug\NunitExample.pdb
+D:\TestProjectNunit\NunitExample\NunitExample\bin\Debug\nunit.framework.dll
+D:\TestProjectNunit\NunitExample\NunitExample\bin\Debug\nunit.framework.xml
+D:\TestProjectNunit\NunitExample\NunitExample\obj\Debug\NunitExample.csproj.CoreCompileInputs.cache
+D:\TestProjectNunit\NunitExample\NunitExample\obj\Debug\NunitExample.csproj.CopyComplete
+D:\TestProjectNunit\NunitExample\NunitExample\obj\Debug\NunitExample.dll
+D:\TestProjectNunit\NunitExample\NunitExample\obj\Debug\NunitExample.pdb
+D:\TestProjectNunit\NunitExample\NunitExample\bin\Debug\WebDriver.dll
+D:\TestProjectNunit\NunitExample\NunitExample\bin\Debug\WebDriver.xml
+D:\TestProjectNunit\NunitExample\NunitExample\obj\Debug\NunitExample.csprojAssemblyReference.cache
