@@ -20,7 +20,7 @@ namespace NunitExample.Pages
         #region Methods
         public string getHealthMonitorPageTitle()
         {
-            string  HealthMonitorPageTitle = webDriver.FindElement(By.CssSelector("#root > div > main > div.MuiBox-root.MuiBox-root-298 > h5")).Text; ;
+            string  HealthMonitorPageTitle = webDriver.FindElement(By.CssSelector("#root > div > main > div > div.makeStyles-header-351 > div.makeStyles-actionsWrap-352 > h1")).Text; ;
             return HealthMonitorPageTitle;
         }
         #endregion
