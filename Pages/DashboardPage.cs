@@ -32,6 +32,13 @@ namespace NunitExample.Pages
             HealthMonitorLink.Click();
             return DashboardPageTitle;
         }
+        public void goToUsersPage()
+        {
+           
+            webDriver.Manage().Timeouts().AsynchronousJavaScript = System.TimeSpan.FromMilliseconds(30);
+            webDriver.FindElement(By.CssSelector("#root > div > div > div > ul > a:nth-child(3) > div > div > span")).Click();
+            
+        }
         #endregion
 
     }
