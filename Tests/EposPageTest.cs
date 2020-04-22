@@ -21,13 +21,15 @@ namespace NunitExample
             webDriver = new ChromeDriver();
             webDriver.Manage().Window.Maximize();
             webDriver.Manage().Cookies.DeleteAllCookies();
-            webDriver.Navigate().GoToUrl("http://retail-emp.testing.sbtech.com");
+            webDriver.Navigate().GoToUrl("http://retail-emp.testing.sbtech.com/login.html");
         }
    
 
         [Test]
         public void OpenEposPage()
         {
+            AuthorizationPage ObjAuthorizationPage = new AuthorizationPage(webDriver);
+            ObjAuthorizationPage.Login();
             HealthMonitorPage ObjHealthMonitorPage = new HealthMonitorPage(webDriver);
             DashboardPage ObjDashboardPage = new DashboardPage(webDriver);
             string dashboardPageTtl = ObjDashboardPage.goToEposPage();
